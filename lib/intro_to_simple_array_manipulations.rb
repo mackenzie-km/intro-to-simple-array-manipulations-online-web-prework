@@ -11,4 +11,5 @@ def using_pop(array)
 end
 
 def pop_with_args (array, index)
-  array.delete_at(2)
+  array.delete_at(index)
+end
